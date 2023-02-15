@@ -1,5 +1,5 @@
-import modificador from "./modificador"
+import modificador from "./modificador.js"
 
-var vetor = [salada, batata, tomate, agriao];
+var vetor = ["salada", "batata", "tomate", "agriao"];
 
-console.log(modificador.ordenar(vetor));
+console.log(modificador.captalizar(vetor));
