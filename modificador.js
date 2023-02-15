@@ -9,9 +9,9 @@ function fnCaptalizar(colecao){
     var modificado = []
 
     for(let i = 0; i < colecao.lenght; i++){
-        let primeiraLetra = colecao[i].charAt(0).toUpperCase()
-        let restoPalavra = colecao[i].slice(0)
-        let captalização = primeiraLetra + restoPalavra
+        var primeiraLetra = colecao[i].charAt(0).toUpperCase()
+        var restoPalavra = colecao[i].slice(0)
+        var captalização = primeiraLetra + restoPalavra
         modificado[i] = captalização
     }
 
