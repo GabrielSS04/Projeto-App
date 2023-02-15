@@ -8,7 +8,7 @@ function fnCaptalizar(colecao){
 
     var modificado = []
 
-    for(let i = 0; i < vetor.lenght; i++){
+    for(let i = 0; i < colecao.lenght; i++){
         let primeiraLetra = colecao[i].charAt(0).toUpperCase()
         let restoPalavra = colecao[i].slice(0)
         let captalização = primeiraLetra + restoPalavra
