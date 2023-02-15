@@ -1,9 +1,9 @@
-function fnCaptalizar(colecao){
+function fnCaptalizar(vetor){
     var modificado = [];
 
-    for(let i = 0; i < colecao.lenght; i++){
-        var primeiraLetra = colecao[i].charAt(0).toUpperCase();
-        var restoPalavra = colecao[i].slice(1);
+    for(let i = 0; i < vetor.lenght; i++){
+        var primeiraLetra = vetor[i].charAt(0).toUpperCase();
+        var restoPalavra = vetor[i].slice(1);
         var captalização = primeiraLetra + restoPalavra;
         modificado[i] = captalização;
     }
