@@ -1,12 +1,10 @@
 import modificador from "./modificador.js"
 
+console.log(modificador)
+
 var ingredientes = ["salada", "batata", "tomate", "agriao"];
-
 var resultadoCaptalizado = modificador.captalizar(ingredientes)
-
-console.log(resultadoCaptalizado);
-
-
 var resultadoOrdenado = modificador.ordenar(resultadoCaptalizado)
 
+console.log(resultadoCaptalizado);
 console.log(resultadoOrdenado);
