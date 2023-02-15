@@ -1,5 +1,3 @@
-var vetor = ["salada", "batata", "tomate", "agriao"];
-
 function fnOrdenar(vetor){
     return vetor.sort(function(a,b){
         return a.localeCompare(b);
