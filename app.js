@@ -2,9 +2,8 @@ import modificador from "./modificador.js"
 
 console.log(modificador)
 
-var ingredientes = ["salada", "batata", "tomate", "agriao"];
-var resultadoCaptalizado = modificador.captalizar(ingredientes)
-var resultadoOrdenado = modificador.ordenar(resultadoCaptalizado)
+var ingredientes = ['mel', 'água', 'sal', 'mostarda'];
+var ingredientesCap = modificador.captalizar(ingredientes)
+var ingredientesOrd = modificador.ordenar(ingredientesCap)
 
-console.log(resultadoCaptalizado);
-console.log(resultadoOrdenado);
+console.log(ingredientesOrd)
