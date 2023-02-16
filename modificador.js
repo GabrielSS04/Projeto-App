@@ -1,10 +1,8 @@
 function fnCaptalizar(ingredientes){
     var modificado = [];
 
-    console.log(ingredientes[i].charAt(0))
-
     for(var i=0; i < ingredientes.length; i++){
-        var primeiraLetra = ingredientes[i].charAt(0).toUpperCas();
+        var primeiraLetra = ingredientes[i].charAt(0).toUpperCase();
         var restoPalavra = ingredientes[i].slice(1);
         var captalização = primeiraLetra + restoPalavra;
         modificado[i] = captalização;
