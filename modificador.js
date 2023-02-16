@@ -1,4 +1,4 @@
-/*function fnCaptalizar(ingredientes){
+function fnCaptalizar(ingredientes){
     var modificado = [];
 
     for(var i=0; i < ingredientes.length; i++){
@@ -9,14 +9,26 @@
     }
     
     return modificado;
-}*/
+}
 
-function fnOrdenar(vetor){
-    return vetor.sort(function(a,b){
-        return a.localeCompare(b);
+function fnOrdenar(ingredientes){
+    return ingredientes.sort(function(a,b){
+        var c = a.localeCompare(b)
     });
 }
 
+function fnCaixaAlta(ingredientes){
+    var modificado = [];
+
+    for(let i = 0; i < ingredientes.lenght; i++){
+        modificado[i] = ingredientes[i].toUpperCase();
+    }
+
+    return modificado;
+}
+
 export default {
-    ordenar: fnOrdenar
+    captalizar: fnCaptalizar,
+    ordenar: fnOrdenar,
+    caixaAlta: fnCaixaAlta
 }
